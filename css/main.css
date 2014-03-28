@@ -60,7 +60,8 @@ ul>a{
 }
 
 .nav_item:hover{
-	background: url(nav-shadow.png);	
+	background: url(nav-shadow.png);
+	background-size: 	
 }
 
 .nav_item:active{
@@ -81,7 +82,7 @@ ul>a{
 .break_bar{
 	width: 100%;
 	height: 5px;
-	background-color: #66CD00;
+	background-color: #59b400;
 	border-top: 1px solid black;
 }
 
@@ -156,7 +157,7 @@ ul>a{
 .free_design_p{
 	font-size: 30px;
 	margin-top: 14px;
-	margin-left: 15px;
+	margin-left: 40px;
 /*	text-shadow:
     -1px -1px 0 #000,
     1px -1px 0 #000,
@@ -168,8 +169,8 @@ ul>a{
 .free_design_btn{
 	float: right;
 	padding: 7px 5px;
-	margin: 16.5px 20px 0;
-	background-color: #66CD00;
+	margin: 16.5px 40px 0;
+	background-color: #59b400;
 	vertical-align: text-bottom;
 	box-shadow:
     -1px -1px 0 #000,
@@ -241,7 +242,7 @@ ul>a{
 .btn{
 	text-decoration: none;
 	color: white;
-	background-color: #66CD00;
+	background-color: #59b400;
 	font-family: 'Carrois Gothic SC', sans-serif;
 	padding: .5em 1.5em;	
 	display: inline-block;
@@ -252,7 +253,7 @@ ul>a{
 
 .btn:hover{
 	background-color: white;
-	color: #66CD00;
+	color: #59b400;
 }
 
 .btn_wrap{
@@ -281,7 +282,7 @@ ul>a{
 .click_here{	
 	display: inline-block;
 	width: 125px;	
-	border: 1px solid #66CD00;
+	border: 1px solid #59b400;
 }
 
 .heads{
@@ -369,3 +370,72 @@ ul>a{
 }
 
 
+/*-------------------------------*/
+/*Media Queries*/
+/*-------------------------------*/
+
+@media (max-device-width: 1280px) {
+
+/*--------------------------*/
+/*header*/
+/*--------------------------*/
+
+.header{
+	margin: 0 15% 1px;
+	width: 900px;
+	height: 90px;
+}
+
+ul>a{
+	height: 90px;
+	width: 100px;
+	text-decoration: none;
+	color: #505050;
+	padding-top: 30px;
+}
+
+.nav_list{
+	height: 90px;
+}
+
+.nav_item{
+	width: 125px;
+	height: 90px;
+}
+
+.nav_item:hover{
+	background: url(nav-shadow2.png);
+}
+
+.logo{
+	height: 90px;
+	width: 90px;
+}
+
+/*---------------------------*/
+/*Main Body*/
+/*---------------------------*/
+
+.carousel{
+	height: 500px;
+	width: 100%;
+}
+
+.carousel_item{
+	width: 1050px;
+	height: 500px;
+	position: absolute;	
+	margin-right: 140px;
+	left: 9%;
+}
+
+.carousel_img{
+	width: 1050px;
+	height: 500px;	
+	position: absolute;	
+	margin-right: 140px;
+}
+
+
+
+}
