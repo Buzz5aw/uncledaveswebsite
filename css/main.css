@@ -74,6 +74,8 @@ ul>a{
 	float: left;
 	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(transparent), to(#A8A8A8), to(transparent));
     background-image: -webkit-linear-gradient(transparent, #A8A8A8, transparent);
+    background-image: -moz-gradient(linear, 0 0, 0 100%, from(transparent), to(#A8A8A8), to(transparent));
+    background-image: -moz-linear-gradient(transprent, #A8A8A8, transparent);
     background-size:1px 80%;
     background-position:0, 0, 100% 0;
     background-repeat: no-repeat;
@@ -411,9 +413,75 @@ ul>a{
 /*Main Body*/
 /*-----------------*/
 
+.header{
+	height: 75px;
+}
+
+.logo{
+	height: 75px;
+	width: 75px;
+}
+
+
+ul>a{
+	height: 75px;
+}
+
+.navbar{
+	height: 75px;
+}
+
+.nav_item{
+	width: 135.3333333333337px;
+	padding: 32.5px 0 0;
+	font-size: 15px;
+	height: 75px;	
+}
+
+.nav_item:hover{
+	background: url(nav-shadow3.png);
+}
+
+.nav_item:active{
+	background: url(nav-shadow3.png);
+}
+
+.divider{
+	width:1px;
+	height: 75px;	
+}
+
+.carousel{
+	height:500px;	
+}
+
 .carousel_item{
 	left: 8%;
+	height: 500px;
 }
+
+.carousel_img{
+	height: 500px;
+}
+
+
+.free_design{
+	margin: 0 22.5% 15px;
+	padding: 10px 0;
+	height: 45px;
+}	
+
+.free_design_p{
+	font-size: 26px;
+	margin-top: 9.5px;
+	margin-left: 40px;
+}
+
+.free_design_btn{
+	padding: 5px 3.5px;
+	margin: 10px 40px 0;	
+}
+
 
 }
 
