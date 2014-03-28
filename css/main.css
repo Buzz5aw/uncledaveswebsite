@@ -374,67 +374,135 @@ ul>a{
 /*Media Queries*/
 /*-------------------------------*/
 
-@media (max-device-width: 1280px) {
+@media (max-device-width: 1680px) {
+
+/*--------------------*/
+/*Header*/
+/*--------------------*/
+
+.header{
+	width: 1000px;
+	margin: 0 21% 1px;
+}
+
+/*---------------------*/
+/*Main Body*/
+/*---------------------*/
+
+.carousel{
+	width: 100%;
+}
+
+.carousel_item{
+	width: 1350px;
+	left: 10%;
+}
+
+.carousel_img{
+	width: 1350px;
+}
+
+
+}
+
+@media (max-device-width: 1600px){
+
+/*-----------------*/
+/*Main Body*/
+/*-----------------*/
+
+.carousel_item{
+	left: 8%;
+}
+
+}
+
+@media (max-device-width: 1440px){
+
+.header{
+	margin: 0 17.5% 1px;
+}
+
+.carousel_item{
+	width: 1200px;
+}
+
+.carousel_img{
+	width: 1200px;
+}
+
+}
+
+
+@media (max-device-width: 1366px) {
+
+.carousel_item{
+	left: 5.5%;
+}
+
+}
+
+@media (max-device-width: 1300px) {
 
 /*--------------------------*/
 /*header*/
 /*--------------------------*/
 
-.header{
-	margin: 0 15% 1px;
-	width: 900px;
-	height: 90px;
-}
+	.header{
+		margin: 0 15% 1px;
+		width: 900px;
+		height: 90px;
+	}
 
-ul>a{
-	height: 90px;
-	width: 100px;
-	text-decoration: none;
-	color: #505050;
-	padding-top: 30px;
-}
+	ul>a{
+		height: 90px;
+		width: 100px;
+		text-decoration: none;
+		color: #505050;
+		padding-top: 30px;
+	}
 
-.nav_list{
-	height: 90px;
-}
+	.nav_list{
+		height: 90px;
+	}
 
-.nav_item{
-	width: 125px;
-	height: 90px;
-}
+	.nav_item{
+		width: 125px;
+		height: 90px;
+	}
 
-.nav_item:hover{
-	background: url(nav-shadow2.png);
-}
+	.nav_item:hover{
+		background: url(nav-shadow2.png);
+	}
 
-.logo{
-	height: 90px;
-	width: 90px;
-}
+	.logo{
+		height: 90px;
+		width: 90px;
+	}
 
-/*---------------------------*/
-/*Main Body*/
-/*---------------------------*/
+	/*---------------------------*/
+	/*Main Body*/
+	/*---------------------------*/
 
-.carousel{
-	height: 500px;
-	width: 100%;
-}
+	.carousel{
+		height: 500px;
+		width: 100%;
+	}
 
-.carousel_item{
-	width: 1050px;
-	height: 500px;
-	position: absolute;	
-	margin-right: 140px;
-	left: 9%;
-}
+	.carousel_item{
+		width: 1050px;
+		height: 500px;
+		position: absolute;	
+		margin-right: 140px;
+		left: 8%;
+	}
 
-.carousel_img{
-	width: 1050px;
-	height: 500px;	
-	position: absolute;	
-	margin-right: 140px;
-}
+	.carousel_img{
+		width: 1050px;
+		height: 500px;	
+		position: absolute;	
+		margin-right: 140px;
+	}
 
 
 
