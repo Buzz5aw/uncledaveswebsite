@@ -168,9 +168,9 @@ ul>a{
 }
 
 .free_design{
-	margin: 150px 22.5% 15px;
+	margin: 90px 22.5% 15px;
 	padding: 10px 0;
-	height: 58px;
+	height: 118px;
 	font-family: Verdana, Sans-Serif;
 	text-transform: uppercase;
 	background: #A0A0A0;
@@ -185,10 +185,12 @@ ul>a{
 	font-size: 16px;
 	margin-top: 14px;
 	margin-left: 40px;
+	margin-bottom: 30px;
     display: inline-block; 
 }
 
 .free_design_btn{
+	margin: 90px 0 0 300px;
 	padding: 7px 5px;
 	background-color: #59b400;
 	vertical-align: text-bottom;
