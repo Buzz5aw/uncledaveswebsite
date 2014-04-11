@@ -3,6 +3,7 @@
 		<head>
 			<link rel="stylesheet" href="css/freedesign.css">
 			<link href='http://fonts.googleapis.com/css?family=Carrois+Gothic+SC' rel='stylesheet' type='text/css'>	
+			<title> New Jersey Clean Energy Solutions </title>
 		</head>
 
 
@@ -65,34 +66,29 @@
 					</div>
 
 
-				<form action="form.php" method="post" name="contact_form">
-					<p>Name:
-						<input name="name" type="text" />
-					</p>
-					<p>Email:
-						<input name="email" type="text" />
-					</p>
-					<p>You Message:
-						<textarea name="message" columns="5" rows="5"></textarea>
-					</p>
-
-					<input type="submit" name="submit" id="submit" value="submit" />
-					<input type="reset" name="reset" id="reset" value="reset"  />
-				</form>
-
-				
-
-
-
-		
-
-
-
-
-
+					<div class="form_wrap">
+						<h2 class="form_info"> REQUEST FOR FREE NO OBILIGATION SOLAR DESIGN</h2>
+						<p class="form_info2"> IF YOU WOULD LIKE US TO CALCULATE YOUR ENERGY SAVINGS PLEASE ENTER YOUR CURRENT ELECTRIC USAGE
+											   SOMETIMES WHEN LOCATING YOUR HOUSE WE MANY NEED TO ASK YOU A QUESTION OR TWO. 
+											   WE RESPECT YOUR PRIVACY SO ADDING YOUR PHONE NUMBER IS NOT MANDATORY BUT RECOMMENDED</p> 
+						<form class="form" action="form.php" method="post" name="contact_form">
+							<p class="form_p">Name:<input class="form_input" name="name" type="text" /></p>
+							<p class="form_p">Address:<input class="form_input" name="address" type="text" /></p>
+							<p class="form_p">Phone #:<input class="form_input" name="usrtel" type="tel" /></p>
+							<p class="form_p">Email:<input class="form_input" name="email" type="text" /></p>
+							<p class="form_p">Electric Bill:<input class="form_input" type="number" min="0" max="1000000" step="0.5" name="bill"></p>
+							<p class="form_p">Your Message:<textarea class="form_input" name="message" columns="15" rows="15"></textarea></p>
+							<div class="form_btns">	
+								<input class="form_btn" type="submit" name="submit" id="submit" value="submit" />
+								<input class="form_btn" type="reset" name="reset" id="reset" value="reset"  />
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
 		</body>
 		<footer>
-			<!-- <div class="break_bar">
+			<div class="break_bar">
 			</div>
 			<div class="footer">			
 				<p class="footer_not">
@@ -100,6 +96,6 @@
 					<a href="#" class="footer_link"> Contact </a> &middot;
 					<a href="#" class="footer_link"> &copy; New Jersey Clean Energy Solutions </a>
 				</p>
-			</div> -->
+			</div>
 		</footer>
 	</html>

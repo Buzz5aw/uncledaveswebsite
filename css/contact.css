@@ -21,6 +21,7 @@ body{
 /*-------------------------------*/
 
 .header{
+	width: 1200px;
 	height: 100px;
 	margin: 0 25% 1px;
 }
@@ -40,10 +41,13 @@ ul>a{
 }
 
 .navbar{
+	width: 1200px;
 	height:100px;
 }
 
 .navlist{
+	height: 100px;
+	width: 953px;
 	float: left;
 	margin-left: 4px;
 	font-family: 'Carrois Gothic SC', sans-serif;
