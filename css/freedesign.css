@@ -1,0 +1,126 @@
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {	margin: 0;	padding: 0;	border: 0;	font-size: 100%;	font: inherit;	vertical-align: baseline;}/* HTML5 display-role reset for older browsers */article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {	display: block;}body {	line-height: 1;}ol, ul {	list-style: none;}blockquote, q {	quotes: none;}blockquote:before, blockquote:after,q:before, q:after {	content: '';	content: none;}table {	border-collapse: collapse;	border-spacing: 0;}
+
+
+/*------------------------------*/
+/*General*/
+/*------------------------------*/
+
+*{
+
+}
+
+
+body{
+	
+}
+
+
+
+/*-------------------------------*/
+/*Header and Nav*/
+/*-------------------------------*/
+
+.header{
+	height: 100px;
+	margin: 0 25% 1px;
+}
+
+.logo{
+	float: left;
+	height: 100px;
+	width: 100px;
+}
+
+ul>a{
+	height: 101px;
+	width: 135.3333333333337px;
+	text-decoration: none;
+	color: #505050;
+	padding-top: 30px;	
+}
+
+.navbar{
+	height:100px;
+}
+
+.navlist{
+	float: left;
+	margin-left: 4px;
+	font-family: 'Carrois Gothic SC', sans-serif;
+	text-transform: uppercase;
+}
+
+.nav_item{
+	float: left;
+	width: 135.3333333333337px;
+	padding: 41px 0 0;
+	text-align: center;
+	font-size: 18px;
+	height: 60px;	
+}
+
+.nav_item:hover{
+	background: url(nav-shadow.png);
+	background-size: 	
+}
+
+.nav_item:active{
+	background: url(nav-shadow.png);
+}
+
+.divider{
+	width:1px;
+	height: 101px;
+	float: left;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(transparent), to(#A8A8A8), to(transparent));
+    background-image: -webkit-linear-gradient(transparent, #A8A8A8, transparent);
+    background-image: -moz-gradient(linear, 0 0, 0 100%, from(transparent), to(#A8A8A8), to(transparent));
+    background-image: -moz-linear-gradient(transprent, #A8A8A8, transparent);
+    background-size:1px 80%;
+    background-position:0, 0, 100% 0;
+    background-repeat: no-repeat;
+}
+
+.break_bar{
+	width: 100%;
+	height: 5px;
+	background-color: #59b400;
+	border-top: 1px solid black;
+}
+
+#breakbar{
+	margin-bottom: 0;
+}
+
+/*----------------------------*/
+/*Main Body*/
+/*----------------------------*/
+
+
+.main_body{
+	margin: 0 auto;
+	width: 100%;
+	height: 1750px;
+	background: grey;
+	font-family: 'Carrois Gothic SC', sans-serif;
+
+}
+
+.page_title{
+	font-size: 60px;
+	display: inline-block; 
+	width: 325px;
+	margin: 40px 39.78%;
+}
+
+.body_wrap{
+	margin: 0 auto;
+	width: 1253px;
+	height: 100%;
+	background: white;
+}
+
+.breakline{
+	width: 882px;
+	margin: 15px 15% 30px;
+}

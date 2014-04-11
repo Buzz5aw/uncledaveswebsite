@@ -1,17 +1,24 @@
 html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {	margin: 0;	padding: 0;	border: 0;	font-size: 100%;	font: inherit;	vertical-align: baseline;}/* HTML5 display-role reset for older browsers */article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {	display: block;}body {	line-height: 1;}ol, ul {	list-style: none;}blockquote, q {	quotes: none;}blockquote:before, blockquote:after,q:before, q:after {	content: '';	content: none;}table {	border-collapse: collapse;	border-spacing: 0;}
 
 
+/*------------------------------*/
+/*General*/
+/*------------------------------*/
 
-
-
-
-body{
+*{
 
 }
 
-/*-------------------------*/
-/*Header & Nav*/
-/*-------------------------*/
+
+body{
+	
+}
+
+
+
+/*-------------------------------*/
+/*Header and Nav*/
+/*-------------------------------*/
 
 .header{
 	height: 100px;
@@ -85,14 +92,16 @@ ul>a{
 	margin-bottom: 0;
 }
 
+
 /*----------------------------*/
 /*Main Body*/
 /*----------------------------*/
 
+
 .main_body{
 	margin: 0 auto;
 	width: 100%;
-	height: 2250px;
+	height: 1750px;
 	background: grey;
 	font-family: 'Carrois Gothic SC', sans-serif;
 
@@ -101,8 +110,8 @@ ul>a{
 .page_title{
 	font-size: 60px;
 	display: inline-block; 
-	width: 340px;
-	margin: 40px 36.5%;
+	width: 325px;
+	margin: 40px 39.78%;
 }
 
 .body_wrap{
@@ -110,172 +119,19 @@ ul>a{
 	width: 1253px;
 	height: 100%;
 	background: white;
-	font-size: 14px;
 }
 
-.advert1{
-	margin: 0 10%;
-	width: 80%;
-	height: 200px;
-	display: inline-block;
-	clear: both;
-	float: right;
-}
-
-.advert2{
-	margin: 0 10%;
-	width: 80%;
-	height: 200px;
-	display: inline-block;
-	clear: both;
-	float: left;	
-}
-
-.cols{
-	width: 882px;
-	height: 210px;
-	margin: 0 auto;	
-}
-
-.column_pic{
-	display: inline-block;
-	border-radius: 10px;
-	width: 400px;
-	height: 200px;	
-}
-
-.text_wrap{
-	height: 400px;
-	display: inline;
-}
-
-.lorem{	
-	font-family: 'Carrois Gothic SC', sans-serif;
+.address_p{
+	margin: 5px 0 0 40px;
+	font-size: 20px;
 	color: #888888;
-	width: 100%;
-	margin: 20px auto;
-	display: block;	
-	text-align: center;
 }
 
-#lorem1{
-	float: right;
-	text-align: right;
+iframe{
+	margin: 10px 0 0 40px;
 }
 
-#lorem2{
-	float: left;
-	text-align: left;
-}
 
-#lorem3{
-	float: right;
-	text-align: right;
-}
-
-.heads{
-	margin: 0 10%;
-	height: 32px;
-	width: 80%;
-	text-align: right;	
-	float: right;
-}
-
-.heads2{
-	margin: 0 10%;
-	height: 32px;
-	width: 80%;
-	text-align: left;	
-	float: left;
-}
-
-.columnhead{
-	font-size: 22px;
-	text-align: center;
-	margin-top: 60px auto 10px;
-	color: #787878;
-	font-family: 'Carrois Gothic SC', sans-serif;
-}
-
-#head1{
-	float: right;
-}
-
-#head2{
-	float: left;
-}
-
-#head3{
-	float: right;
-}
-
-.break{
-	margin: 0 auto;
-	width: 882px;
-}
-
-.breakline{
-	width: 882px;
-	margin: 0 auto;
-	padding-bottom: 5px;
-}
-
-#breakline{
-	padding-bottom: 20px;
-}
-
-#breakline_1{
-	width: 100%;
-	margin-bottom: 50px;
-}
-
-.test_auth{
-	font-weight: 600;
-}
-
-.free_design{	
-	margin: 120px 22.5% 15px;
-	padding: 10px 0;
-	height: 78px;
-	font-family: Verdana, Sans-Serif;
-	text-transform: uppercase;
-	background: #A0A0A0;
-	color: white;
-	border-left: 1px solid black;
-	border-right: 1px solid black;
-	border-bottom: 1px solid black;
-	border-top: 1px solid black;
-}
-
-.free_design_p{
-	font-size: 16px;
-	margin-top: 14px;
-	margin-left: 40px;
-    display: inline-block; 
-}
-
-.free_design_btn{
-	float: right;
-	margin-right: 120px;
-	padding: 7px 5px;
-	background-color: #59b400;
-	vertical-align: text-bottom;
-	text-decoration: none;
-	color:white;
-	box-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;    
-	transition: .25s;
-	-moz-transition: .25s;
-	-webkit-transition: .25s;
-}
-
-.free_design_btn:hover{
-	background-color: white;
-	color: #59b400;
-}
 
 /*---------------------------------*/
 /*Footer*/
@@ -289,6 +145,7 @@ ul>a{
     bottom: 0;
     text-align: center;
 }
+
 
 .footer_link{
 	text-decoration: none;
@@ -407,7 +264,7 @@ ul>a{
 		}	
 
 		.free_design_p{
-			font-size: 16px;
+			font-size: 18px;
 			margin-top: 9.5px;}
 
 		.free_design_btn{
@@ -472,7 +329,7 @@ ul>a{
 		}	
 
 		.free_design_p{
-			font-size: 16px;
+			font-size: 18px;
 			margin-top: 9.5px;}
 
 		.free_design_btn{
@@ -540,7 +397,7 @@ ul>a{
 	}	
 
 	.free_design_p{
-		font-size: 16px;
+		font-size: 18px;
 		margin-top: 9.5px;}
 
 	.free_design_btn{
