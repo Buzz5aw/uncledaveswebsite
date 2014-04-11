@@ -22,6 +22,7 @@ body{
 
 .header{
 	height: 100px;
+	width: 1200px;
 	margin: 0 25% 1px;
 }
 
@@ -41,9 +42,12 @@ ul>a{
 
 .navbar{
 	height:100px;
+	width: 1200px;
 }
 
 .navlist{
+	height: 100px;
+	width: 953px;
 	float: left;
 	margin-left: 4px;
 	font-family: 'Carrois Gothic SC', sans-serif;
