@@ -217,7 +217,25 @@ ul>a{
 	display: inline-block;
 	border-radius: 10px;
 	width: 400px;
+	height: 200px;
+}
+
+.column_pic2{
+	margin-top: -125px;
+	float: right;	
+	display: inline-block;
+	border-radius: 10px;
+	width: 400px;
 	height: 200px;	
+	margin-bottom: 10px;
+}
+
+.column_pic3{
+	display: inline-block;
+	margin-right: 250px;
+	border-radius: 10px;
+	float: left;
+	margin-top: -30px;
 }
 
 .text_wrap{
@@ -229,7 +247,7 @@ ul>a{
 	font-family: 'Carrois Gothic SC', sans-serif;
 	color: #888888;
 	width: 230px;
-	margin: 0px auto;
+	margin: 17.5px auto;
 	display: block;	
 	text-align: center;
 }
@@ -293,6 +311,7 @@ ul>a{
 	display: inline-block;
 	width: 125px;	
 	border: 1px solid #59b400;
+	margin-top: 17.5px;
 }
 
 .heads{
@@ -336,7 +355,7 @@ ul>a{
 
 .breakline{
 	width: 882px;
-	margin: 0 auto;
+	margin: 10px auto 10px;
 	padding-bottom: 5px;
 }
 

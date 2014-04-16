@@ -156,11 +156,21 @@ iframe{
 .form{
 	display: inline-block;
 	float: right;
+	margin-right: 50px;
 }
 
 .form_btns{
 	margin-top: 17px;
 	margin-left: 65px;
+}
+
+.form_p{
+	text-align: left;
+	margin-bottom: 7.5px;
+}
+
+.form_input{
+	margin-bottom: 5px;
 }
 
 
