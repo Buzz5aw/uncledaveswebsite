@@ -21,9 +21,9 @@ body{
 /*-------------------------------*/
 
 .header{
-	width: 1200px;
 	height: 100px;
-	margin: 0 25% 1px;
+	margin: 0 0 1px 20%;
+	width: 1500px;
 }
 
 .logo{
@@ -34,29 +34,28 @@ body{
 
 ul>a{
 	height: 101px;
-	width: 135.3333333333337px;
+	width: 150px;
 	text-decoration: none;
 	color: #505050;
 	padding-top: 30px;	
 }
 
 .navbar{
-	width: 1200px;
 	height:100px;
+	width: 1300px;
 }
 
 .navlist{
-	height: 100px;
-	width: 953px;
 	float: left;
 	margin-left: 4px;
 	font-family: 'Carrois Gothic SC', sans-serif;
 	text-transform: uppercase;
+	width: 1150px;
 }
 
 .nav_item{
 	float: left;
-	width: 135.3333333333337px;
+	width: 150px;
 	padding: 41px 0 0;
 	text-align: center;
 	font-size: 18px;
@@ -65,11 +64,7 @@ ul>a{
 
 .nav_item:hover{
 	background: url(nav-shadow.png);
-	background-size: 	
-}
-
-.nav_item:active{
-	background: url(nav-shadow.png);
+	background-size: 150px;	
 }
 
 .divider{
@@ -89,7 +84,8 @@ ul>a{
 	width: 100%;
 	height: 5px;
 	background-color: #59b400;
-	border-top: 1px solid black;
+	border-top: 1px solid black;	
+	box-shadow: 0 4px 8px -4px black;
 }
 
 #breakbar{

@@ -64,11 +64,7 @@ ul>a{
 
 .nav_item:hover{
 	background: url(nav-shadow.png);
-	background-size: 	
-}
-
-.nav_item:active{
-	background: url(nav-shadow.png);
+	background-size: 150px;	
 }
 
 .divider{
@@ -352,9 +348,26 @@ ul>a{
 	float: left;	
 }
 
+.main_info{
+	width: 60%;
+	margin: 0 auto;
+	background-color: ; 
+	padding-top: 25px;
+	padding-bottom: 35px;
+}
+
+.main_info_div{
+	margin: 0 auto;
+	width: 80%;
+	height: 1000px;
+	background: #FAFAFA;
+	border-radius: 2.5%;
+	box-shadow: 1px 1px 10px 1px #D3D3D3; 
+}
+
 .cols{
-	width: 1300px;
-	height: 210px;
+	width: 100%;
+	height: 310px;
 	margin: 0 auto;
 }
 
@@ -366,50 +379,23 @@ ul>a{
 }
 
 .column_pic2{
-	margin-top: -125px;
-	float: right;	
-	display: inline-block;
-	border-radius: 10px;
-	width: 400px;
-	height: 200px;	
-	margin-bottom: 10px;
 }
 
 .column_pic3{
-	display: inline-block;
-	margin-right: 400px;
-	border-radius: 10px;
-	float: left;
-	margin-top: -30px;
 }
 
 .text_wrap{
-	height: 140px;
-	display: inline;
 }
 
 .lorem{	
-	font-family: 'Carrois Gothic SC', sans-serif;
-	color: #888888;
-	width: 500px;
-	margin: 17.5px auto;
-	display: block;	
-	text-align: center;
+}
+.heads{
 }
 
-#lorem1{
-	float: right;
-	text-align: right;
+.heads2{
 }
 
-#lorem2{
-	float: left;
-	text-align: left;
-}
-
-#lorem3{
-	float: right;
-	text-align: right;
+.columnhead{
 }
 
 .btn{
@@ -427,70 +413,6 @@ ul>a{
 .btn:hover{
 	background-color: white;
 	color: #59b400;
-}
-
-.btn_wrap{
-	height: 32px;	
-	display: inline-block;	
-	float: right;
-	clear: both;
-	margin-top: 15px;
-	margin-bottom: 17px;	
-}
-
-.btn_wrap2{
-	height: 32px;	
-	display: inline-block;	
-	float: left;
-	clear: both;
-	margin-top: 10px;
-	margin-bottom: 12px;	
-}
-
-#btn1{
-	float: right;
-	clear: both;
-}
-
-.click_here{	
-	display: inline-block;
-	width: 125px;	
-	border: 1px solid #59b400;
-	margin-top: 17.5px;
-}
-
-.heads{
-	height: 32px;
-	width: 230px;
-	text-align: right;	
-	float: right;
-}
-
-.heads2{
-	height: 32px;
-	width: 230px;
-	text-align: left;	
-	float: left;
-}
-
-.columnhead{
-	font-size: 22px;
-	text-align: center;
-	margin-top: 60px auto 10px;
-	color: #787878;
-	font-family: 'Carrois Gothic SC', sans-serif;
-}
-
-#head1{
-	float: right;
-}
-
-#head2{
-	float: left;
-}
-
-#head3{
-	float: right;
 }
 
 .break{
