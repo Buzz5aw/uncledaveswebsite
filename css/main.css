@@ -11,7 +11,6 @@ html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockqu
 
 
 body{
-	
 }
 
 
@@ -356,8 +355,8 @@ ul>a{
 }
 
 .main_info_div{
-	margin: 0 auto;
-	width: 80%;
+	margin: 0 2.3%;
+	width: 100%;
 	height: 1500px;
 	background: #f1f1f1;
 	border-radius: 2.5%;
@@ -427,6 +426,7 @@ ul>a{
 	transition: .25s;
 	-moz-transition: .25s;
 	-webkit-transition: .25s;
+	border: 1px 1px solid #59b400;
 }
 
 .btn:hover{
@@ -436,10 +436,6 @@ ul>a{
 
 .banner_wrap{
 	margin-top: 25px;
-}
-
-.banner_img{
-
 }
 
 .banner_bar{
@@ -461,7 +457,7 @@ ul>a{
 .test_div{
 	margin: 0 auto;
 	width: 80%;
-	height: 600px;
+	height: 621px;
 	background: #f1f1f1;
 	border-radius: 2.5%;
 	box-shadow: 1px 1px 10px 1px #D3D3D3;
@@ -493,6 +489,10 @@ ul>a{
 
 .iframe_home{
 	margin: 0 19.5%;
+}
+
+.test_btn{
+	margin-top: 14px;
 }
 
 .break{
